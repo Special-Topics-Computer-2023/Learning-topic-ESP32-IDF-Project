@@ -4,7 +4,7 @@
 
 ESP32 project เป็น folder ที่รวมไฟล์ต่างๆ ที่ใช้งานร่วมกันเพื่อสร้าง  binary code ที่รันบน ESP32 ได้ ซึ่งไฟล์เหล่านั้นอาจจะเป็นได้ทั้ง Source code, header file, script และอื่น ๆ  รวมถึงไฟล์ที่เกิดจากการ build ของ toolchain ด้วย 
 
-โดยทั่วไปแล้ว การ build ของโปรเจคที่มี source code เป็นภาษาซี จะมีกระบวนการที่เรียกว่าการคอมไพล์ (โดย compiler) ทำหน้าที่แปลง source code  เป็น object code แต่จะยังไม่สามารถรันบน ESP32 ได้โดยตรง จะต้องมีการเชื่อม (โดย Linker) เข้ากับ object code จาก source files อื่น ๆ รวมถึง object code ใน Library เสียก่อน จากนั้นจะนำ object code ที่รวมกันทั้งหมดมาจัดเรียง (relocated) จนกลายเป็น Application แล้วนำไปวางในหน่วยความจำของ ESP32 ตาม script ที่ระบุตำแหน่งของส่วนต่าง ๆ ของ Application ที่จะถูกนำไปเก็บในหน่วยความจำ flash ของ ESP32 (เรียกว่าการ upload) ซึ่งทั้งหมดจะถูกดำเนินการโดย toolchain อย่างอัตโนมัติ 
+โดยทั่วไปแล้ว การ build ของโปรเจคที่มี source code เป็นภาษาซี จะมีกระบวนการที่เรียกว่าการคอมไพล์ (โดย compiler) ทำหน้าที่แปลง source code  เป็น object code แต่จะยังไม่สามารถรันบน ESP32 ได้โดยตรง จะต้องมีการเชื่อม (โดย Linker) เข้ากับ object code จาก source files อื่น ๆ รวมถึง object code ใน Library เสียก่อน จากนั้นจะนำ object code ที่รวมกันทั้งหมดมาจัดเรียง (relocated) จนกลายเป็น Application แล้วนำไปวางในหน่วยความจำของ ESP32 ตาม script ที่ระบุตำแหน่งของส่วนต่าง ๆ ของ Application (เรียกว่าการ upload) ซึ่งกระบวนการทั้งหมดนั้นจะถูกดำเนินการโดย toolchain อย่างอัตโนมัติ 
 
 
 ![Alt text](image.png)
