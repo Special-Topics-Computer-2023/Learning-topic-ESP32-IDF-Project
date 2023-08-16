@@ -36,6 +36,3 @@ ESP32 project เป็น folder ที่รวมไฟล์ต่างๆ 
 
 ![](Pictures/Slides/Learning-topic-ESP32-IDF-Project-09.PNG)
 
-
-
-3.1 รายละเอียดของไฟล์
