@@ -13,6 +13,29 @@ ESP32 project เป็น folder ที่รวมไฟล์ต่างๆ 
 
 2. Folder structure
 
-3. ไฟล์ต่าง ๆ
+![](Pictures/Slides/Learning-topic-ESP32-IDF-Project-02.PNG)
+
+
+![](Pictures/Slides/Learning-topic-ESP32-IDF-Project-03.PNG)
+
+
+![](Pictures/Slides/Learning-topic-ESP32-IDF-Project-04.PNG)
+
+
+![](Pictures/Slides/Learning-topic-ESP32-IDF-Project-05.PNG)
+
+
+![](Pictures/Slides/Learning-topic-ESP32-IDF-Project-06.PNG)
+
+
+![](Pictures/Slides/Learning-topic-ESP32-IDF-Project-07.PNG)
+
+
+![](Pictures/Slides/Learning-topic-ESP32-IDF-Project-08.PNG)
+
+
+![](Pictures/Slides/Learning-topic-ESP32-IDF-Project-09.PNG)
+
+
 
 3.1 รายละเอียดของไฟล์
